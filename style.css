@@ -1,0 +1,35 @@
+/*Selector {
+	Property: value;
+}*/
+body{
+	background-image:url(louise-burton-sHRIto0UraI-unsplash.jpg) ;
+	background-size: cover;
+}
+h2+p:hover {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgb(255,176,170,0.5);
+	cursor: pointer;
+}
+p{
+	color: pink !important;
+}
+p{
+	color: green;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.web{
+	border: 5px dashed green;
+}
+.active{
+	color: red;
+}
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+#div2{
+	background: rgba(255,0,0,0.2);
+}

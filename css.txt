@@ -1,0 +1,163 @@
+puicking colour website-paletton.com
+text-align:left right center
+border:like div with color
+background-size: cover;-fit the image to background
+cursor:pointing to paticular obj with different cursor
+list style:for list elemnet like <li> tage 
+display:inline-blocks-in one line
+.class-used for creating a multiple class combined to one class of element and perform
+eg..web{
+	border: 5px dashed green;}
+<p class="web">Lorem ipsum </p>
+#id-same as class used for single
+<div id="div1">
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+#div2{
+	background: rgba(255,0,0,0.2);
+}
+
+*-symbolize all element
+
+element
+body{
+	background-image:url(louise-burton-sHRIto0UraI-unsplash.jpg) ;
+	background-size: cover;
+}
+
+element,element
+h2,p{
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgb(255,176,170,0.5);
+	cursor: pointer;
+}
+
+element element
+
+h2 p{
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgb(255,176,170,0.5);
+	cursor: pointer;
+}
+
+apply property to p which is inside h2 so --->apply only center to p inside h2
+
+element > element
+<h2>Home
+      <div><p>homenome</p>
+      </div></h2>
+reverse is possible
+<p>Home
+      <div><h2>homenome</h2>
+      </div></p>
+h2>p{
+	color: #AA4139;
+	text-align: center;/* is not applicable because of div
+	border: 5px solid rgb(255,176,170,0.5);
+	cursor: pointer;
+}
+
+element+element=select p elemeny exactly after h2 elemnet
+h2+p{
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgb(255,176,170,0.5);
+	cursor: pointer;
+}
+
+<h2>Home</h2>
+    <p>homenome</p>
+
+hover:
+div is not visible only visible when you touch
+h2+p:hover {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgb(255,176,170,0.5);
+	cursor: pointer;
+}
+
+:last-child-only for the last child of class it is applicable
+.web: last-child{
+	border: 5px dashed green;
+}
+
+p class="web active">Lorem ipsum </p>
+    <p class="web">Lorem ipsum </p>
+    <p class="web">Lorem ipsum </p>
+    <p class="web">Lorem ipsum </p>
+    <p class="web">Lorem ipsum </p>--for this
+:first-child
+only for the first child of class it is applicable
+.web: last-child{
+	border: 5px dashed green;
+}
+
+p class="web active">Lorem ipsum </p>--for this
+    <p class="web">Lorem ipsum </p>
+    <p class="web">Lorem ipsum </p>
+    <p class="web">Lorem ipsum </p>
+    <p class="web">Lorem ipsum </p>
+!important
+p{
+	color: pink !important;
+}
+p{
+	color: green;
+}
+
+p is pink always otherwise last p is green
+
+
+when selector win out the cascade depends on
+specificity
+-importance
+-source order-always go to the new created file if one html contain multiple like styl1 style2
+always go to style2.css
+
+manify css into single line form fast rendering
+
+
+
+flexbox:
+display: flex;->straight image in a single line
+<div class="container">
+.container{
+	display: flex;
+}
+
+
+container{
+	display: flex;
+	flex-wrap: wrap;
+}
+-->everything is wrapping/fit into any type of screen
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;-->move all the images present in div to center
+	
+}
+for font size and design
+h1{
+	font-family: inherit;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px; //operate in between only 400 px
+	text-align: center;
+	box-shadow:4PX 4PX 5PX #888888;//draw a shadow box
+        margin-top: 10px;//below margin of 10 px bottom is reverse
+}
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;--add spaces between iamges
+	transition: all 1s;//when image is touched it will transform to size 1.1 FOR 1 SEC
+}
+img:hover{
+transform: scale(1.1);
+}-when image is touched it will transform to size 1.1
